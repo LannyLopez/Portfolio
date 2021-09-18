@@ -49,10 +49,14 @@ header nav ul li a {
     color: #030100;
     font-style: normal;
     padding: 12px 12px;
+    display: flex;
 }
 
 header h1 {
     font-size: 28px;
     background: rgb(145, 43, 12);
     padding: 12px 12px;
+}
+
+.about-me {
 }
