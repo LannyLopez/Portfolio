@@ -81,3 +81,15 @@ header h1 {
 .jip {
     display: flex;
 }
+
+.work {
+    margin: 20px;
+    width: 20%;
+    padding: 0 auto 0 auto;
+    border-right: 3px solid rgb(117, 10, 10);
+    height: 280px;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    color: rgb(145, 43, 12);
+}
