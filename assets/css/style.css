@@ -86,6 +86,7 @@ header h1 {
 .work-sec{
     display: flex;
     width: 100%;
+    
 
 } 
 
@@ -94,20 +95,25 @@ header h1 {
     width: 15%;
     padding: 0 auto 0 auto;
     border-right: 3px solid rgb(117, 10, 10);
-    
     display: -webkit-flex;
     display: flex;
     align-items: center;
     color: rgb(145, 43, 12);
 }
 
+
+
 .Images {
-    width: 55%;
+    width: 70%;
+    
 }
 
-.Images article h4{
+h4{
     color: rgb(145, 43, 12);
+    
+
 }
+
 
 #big{
     display: block;
@@ -115,6 +121,7 @@ header h1 {
     margin: 2px;
     background: red;
 }
+
 
 .pics {
     border: 3px solid rgb(145, 43, 12);
@@ -146,8 +153,41 @@ img{
     color: rgb(145, 43, 12);
 }
 
-.end-links ul li{
-    list-style: none;
+.end-links nav ul{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 14px;
+}
+
+.end-page nav ul li a {
+    padding: 10px 10px;
+    font-weight: bolder;
+    font-size: 22px;
+    color: #aa5a35;
+    
+}
+
+.end-links a {
+    text-decoration: none;
+    color: rgb(145, 43, 12);
+    font-size: 26px;
+    padding: 10px 10px;
+ 
+}
+.end-links{
+    display: flex;
+    padding: 20px 20px;
+  
+}
+
+.end-links span{
+    border-bottom: 3px solid rgb(117, 10, 10);
+    padding-bottom: 5px;
+}
+
+footer{
+    display: flex;
+    
 }
