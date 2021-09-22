@@ -60,7 +60,7 @@ header h1 {
 
 .about-me {
     margin: 20px;
-    width: 20%;
+    width: 15%;
     padding: 0 auto 0 auto;
     border-right: 3px solid rgb(117, 10, 10);
     height: 280px;
@@ -76,6 +76,7 @@ header h1 {
    margin: auto;
    align-items: center;
    font-size: 23px;
+   width: 66%;
 }
 
 .jip {
@@ -90,7 +91,7 @@ header h1 {
 
 .work{
     margin: 20px;
-    width: 14%;
+    width: 15%;
     padding: 0 auto 0 auto;
     border-right: 3px solid rgb(117, 10, 10);
     
@@ -117,6 +118,15 @@ header h1 {
 
 .pics {
     border: 3px solid rgb(145, 43, 12);
+    position: relative;
+}
+.content{
+    display: inline-flex;
+}
+
+img{
+    filter: opacity(0.75);
+    
 }
 
 .end {
@@ -126,7 +136,7 @@ header h1 {
 
 .end-page {
     margin: 20px;
-    width: 20%;
+    width: 15%;
     padding: 0 auto 0 auto;
     border-right: 3px solid rgb(117, 10, 10);
     height: 100px;
