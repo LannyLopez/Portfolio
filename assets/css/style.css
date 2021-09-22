@@ -82,28 +82,42 @@ header h1 {
     display: flex;
 }
 
-.work {
-    margin: 10px;
-    width: 20%;
+.work-sec{
+    display: flex;
+    width: 100%;
+
+} 
+
+.work{
+    margin: 20px;
+    width: 14%;
     padding: 0 auto 0 auto;
     border-right: 3px solid rgb(117, 10, 10);
-    height: 280px;
+    
     display: -webkit-flex;
     display: flex;
     align-items: center;
     color: rgb(145, 43, 12);
 }
 
-.work-sec {
-    display: flex;
-    align-items: center;
+.Images {
+    width: 55%;
 }
 
-.Bigimage {
-    border: #aa5a35 solid 3px;   
+.Images article h4{
+    color: rgb(145, 43, 12);
 }
 
+#big{
+    display: block;
+    border: 3px solid rgb(145, 43, 12);
+    margin: 2px;
+    background: red;
+}
 
+.pics {
+    border: 3px solid rgb(145, 43, 12);
+}
 
 .end {
     display: flex;
