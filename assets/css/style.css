@@ -208,4 +208,13 @@ footer{
         width: 100%;
         text-align: center;
     }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    header nav ul li a {
+        font-size: 20px
+    }
 }
