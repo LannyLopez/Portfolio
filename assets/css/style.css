@@ -197,6 +197,12 @@ footer{
     
 }
 
+header a:hover{
+    background-color: rgb(117, 10, 10);
+}
+
+
+
 @media screen and (max-width: 980px){
     header{
         padding: 0;
@@ -217,4 +223,5 @@ footer{
     header nav ul li a {
         font-size: 20px
     }
+    
 }
