@@ -92,7 +92,7 @@ header h1 {
 
 .work{
     margin: 20px;
-    width: 15%;
+    width: 18%;
     padding: 0 auto 0 auto;
     border-right: 3px solid rgb(117, 10, 10);
     display: -webkit-flex;
@@ -195,4 +195,17 @@ img{
 footer{
     display: flex;
     
+}
+
+@media screen and (max-width: 980px){
+    header{
+        padding: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    header h1{
+        width: 100%;
+        text-align: center;
+    }
 }
